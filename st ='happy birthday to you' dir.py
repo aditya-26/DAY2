@@ -1,0 +1,18 @@
+st ='happy birthday to you@123'
+print(dir(st))
+
+print(st.capitalize())
+print(st.casefold())
+print(st.center(100,'#'))
+print(st.count('p'))
+print(st.encode())
+print(st.endswith('n'))
+print(st.upper())
+print(st.lower())
+print(st.split())
+print(st.title())
+print(st.rsplit('a'))
+print(st.find('p'))
+print(st.find('z'))
+print(st.index('y'))
+print(st.replace('birthday','bornday'))
